@@ -2,7 +2,7 @@
 class RomanConvertor() :
     arabicNumber = 5
     
-    def convert(arabicNumber): 
+    def convert(self, arabicNumber): 
         
         match arabicNumber:
             case 1:
