@@ -1,9 +1,8 @@
 
 class RomanConvertor() :
-    arabicNumber = 5
     
-    def convert(arabicNumber): 
-        
+    def convert(arabicNumber):
+                
         match arabicNumber:
             case 1:
                 return "I"
@@ -13,5 +12,11 @@ class RomanConvertor() :
                 return "III"
             case _:
                 return "WTF DUDE"
+            
+        # match arabicNumber:
+        #     case 1, 2, 3:
+        #         return "I"*arabicNumber
+        #     case _:
+        #         return "WTF DUDE"
             
         
